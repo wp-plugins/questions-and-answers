@@ -1,0 +1,71 @@
+/**
+ * Title Field
+ */
+.drkfr_Title .field-title {
+	margin: 8px 0 !important;
+}
+
+.drkfr_Title {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 16px;
+}
+
+.drkfr_Title h2 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+
+/**
+ * Color Picker
+ */
+.drkfr_Color_Picker .field-item {
+	float: left;
+	clear: both;
+}
+
+.drkfr_Color_Picker:before,
+.drkfr_Color_Picker:after {
+    content: "";
+    display: table;
+}
+
+.drkfr_Color_Picker:after {
+    clear: both;
+}
+
+.drkfr_Color_Picker {
+    zoom: 1;
+}
+
+
+/**
+ * Timepicker
+ */
+div.time-picker { position: absolute; height: 191px; width:4em; /* needed for IE */ overflow: auto; background: #fff; border: 1px solid #aaa; z-index: 99; margin: 0; }
+div.time-picker-12hours { width:6em; /* needed for IE */ }
+div.time-picker ul { list-style-type: none; margin: 0; padding: 0; }
+div.time-picker li { cursor: pointer; height: 10px; font: 12px/1 Helvetica, Arial, sans-serif; padding: 4px 3px; }
+div.time-picker li.selected { background: #0063CE; color: #fff; }
+
+.drkfr_metabox input.drkfr_timepicker {
+	width: 100px;
+	margin-right: 0;
+}
+
+.drkfr_Datetime_Timestamp_Field input + input {
+	margin-left: 4px;
+}
+
+/**
+ * Select Fields
+ */
+
+.drkfr_select {
+	width: 100%;
+}
+
+.select2-offscreen {
+	display: none;
+}

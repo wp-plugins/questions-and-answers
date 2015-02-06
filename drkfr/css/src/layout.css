@@ -1,0 +1,57 @@
+/** drkfr Layout **/
+
+.drkfr_metabox .field { 
+	overflow: hidden;
+	padding: 16px 0;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.drkfr-row:last-child > [class*="drkfr-cell-"]  > .field { 
+	border-bottom: 0; 
+}
+
+/* Neaten up the margins when metaboxes are within the standard postbox. */
+.postbox > .inside > .drkfr_metabox {
+	margin: -10px 0; 
+}
+
+.drkfr_metabox .drkfr-row { 
+	overflow: hidden; 
+	margin: 0 -5px; 
+	zoom: 1;
+}
+
+.drkfr_metabox .drkfr-row:before,
+.drkfr_metabox .drkfr-row:after {
+	content: "";
+	display: table;
+} 
+.drkfr_metabox .drkfr-row:after {
+	clear: both;
+}
+
+.drkfr_metabox [class*="drkfr-cell-"] { 
+	float: left; 
+	padding: 0 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.drkfr_metabox .drkfr-cell-1  { width: 8.333333333%; }
+.drkfr_metabox .drkfr-cell-2  { width: 16.666666667%; }
+.drkfr_metabox .drkfr-cell-3  { width: 25%; }
+.drkfr_metabox .drkfr-cell-4  { width: 33.333333333%; }
+.drkfr_metabox .drkfr-cell-5  { width: 41.666666667%; }
+.drkfr_metabox .drkfr-cell-6  { width: 50%; }
+.drkfr_metabox .drkfr-cell-7  { width: 58.333333333%; }
+.drkfr_metabox .drkfr-cell-8  { width: 66.666666667%; }
+.drkfr_metabox .drkfr-cell-9  { width: 75%; }
+.drkfr_metabox .drkfr-cell-10 { width: 83.333333333%; }
+.drkfr_metabox .drkfr-cell-11 { width: 91.666666667%; }
+.drkfr_metabox .drkfr-cell-12 { width: 100%; }
+
+@media all and ( max-width: 850px ) {
+
+	.drkfr_metabox [class*="drkfr-cell-"] { width: 100%; }
+
+}

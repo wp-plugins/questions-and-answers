@@ -1,0 +1,55 @@
+.drkfr_metabox .field-item {
+	position: relative;
+}
+
+.drkfr_metabox_description { 
+	color: #AAA; 
+	font-style: italic; 
+	margin: 0 0 16px !important;
+}
+
+.drkfr_metabox input[type=text], 
+.drkfr_metabox textarea, 
+.drkfr_metabox select { 
+	width: 100%;
+	margin: 0;
+}
+
+.drkfr_metabox input.drkfr_text_small { 
+	width: 100px; 
+}
+
+.drkfr_metabox input.drkfr_text_medium {
+	width: 230px; 
+	margin-right: 15px;
+}
+
+.drkfr_metabox input[type="radio"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.drkfr_metabox input[type="checkbox"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.drkfr_metabox .field-title { 
+	margin-top: -4px; 
+	margin-bottom: 16px; 
+	margin-top: 0; 
+	font-weight: bold; 
+}
+
+.drkfr_metabox .field-title label {
+	vertical-align: baseline;
+}
+.drkfr_metabox .select2-search-choice-close {
+	-webkit-transition: none;
+	        transition: none;
+	top: 3px;
+}
+
+.drkfr_metabox [disabled] {
+	background: #F7F7F7;
+}

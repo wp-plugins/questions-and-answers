@@ -1,0 +1,166 @@
+
+.drkfr_File_Field .field-item,
+.drkfr_Image_Field .field-item { 
+	float: left; 
+	margin: 0 16px 16px 0 !important; 
+	text-align: center; 
+	padding: 0 !important; 
+	z-index: 1; 
+}
+
+.drkfr-file-wrap { 
+	position: relative; 
+	overflow: hidden; 
+	width: 150px; 
+	height: 150px; 
+	line-height: 150px; 
+}
+
+.drkfr-file-wrap-placeholder { 
+	content: ' '; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	display: block; 
+	height: 142px; 
+	width: 142px; 
+	border: 4px dashed #DDD; 
+	z-index: -1; 
+}
+
+.drkfr-file-wrap-placeholder .dimensions { 
+	line-height: normal; 
+	position: absolute; 
+	bottom: 10px; 
+	right: 10px; 
+	font-size: 18px; 
+	font-weight: bold; 
+	opacity: 0.2;
+}
+
+.drkfr-file-holder { 
+	position: relative; 
+	overflow: hidden; 
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.1), inset 0 0 0 1px rgba(0,0,0,0.05); 
+	background: #eee; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.drkfr-file-holder.type-file img { 
+	position: absolute; 
+	top: 43%; 
+	margin-top: -30px; 
+	left: 50%; 
+	margin-left: -23px; 
+}
+
+.drkfr-file-holder.type-img img { 
+	width: 100%; 
+	height: auto; 
+	margin-top: 0; 
+	vertical-align: top; 
+}
+
+.drkfr-file-holder.type-img::after { 
+	content: ''; 
+	display: block; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1); 
+	overflow: hidden; 
+	z-index: 1; 
+}
+
+.drkfr-file-name { 
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	line-height: 1.4; 
+	overflow: hidden; 
+	max-height: 100%; 
+	word-wrap: break-word; 
+	text-align: center; 
+	font-weight: bold; 
+	background: rgba(255,255,255,0.8); 
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15); 
+}
+
+.drkfr-file-name strong { 
+	padding: 5px 10px; 
+	display: block;
+}
+
+.drkfr_File_Field .drkfr-delete-field,
+.drkfr_Image_Field .drkfr-delete-field { 
+	z-index: 10;  
+	top: 10px; 
+	right: 10px; 
+}
+
+.drkfr_File_Field .drkfr-remove-file,
+.drkfr_Image_Field .drkfr-remove-file { 
+	position: absolute; 
+	z-index: 1; 
+	top: 5px; 
+	right: 5px; 
+}
+
+.drkfr_File_Field.repeatable .drkfr-remove-file,
+.drkfr_Image_Field.repeatable .drkfr-remove-file { 
+	display: none !important; 
+}
+
+.drkfr-file-wrap .drkfr-file-upload { 
+	vertical-align: middle; 
+}
+
+.drkfr-loading::before { 
+	content: ' '; 
+	display: block; 
+	background: url( '../../images/wpspin.gif' ) no-repeat; 
+	width: 16px; 
+	height: 16px; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	margin-top: -8px; 
+	margin-left: -8px; 
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	
+	.drkfr-loading::before { 
+		background-image: url( '../../images/wpspin-2x.gif'); 
+		background-size: 16px 16px; 
+	}
+
+}
+
+.drkfr_File_Field.drkfr-sortable .drkfr-handle,
+.drkfr_Image_Field.drkfr-sortable .drkfr-handle { 
+	border: none;
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.drkfr_File_Field.drkfr-sortable .drkfr-file-upload,
+.drkfr_Image_Field.drkfr-sortable .drkfr-file-upload { 
+	position: relative; 
+	z-index: 5; 
+}
+
+.drkfr_File_Field.drkfr-sortable .ui-sortable-helper:before,
+.drkfr_Image_Field.drkfr-sortable .ui-sortable-helper:before { 
+	top: 0;
+	left: 0;
+	padding: 0;
+	border: none;
+	background: #F9F9F9;
+}
