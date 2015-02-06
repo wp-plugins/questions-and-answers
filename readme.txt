@@ -1,4 +1,4 @@
-=== FAQ - Frequently Asked Questions ===
+=== Frequently Asked Questions ===
 Tags: faq, faqs, questions, frequently, asked, support, answers, qna, help, information, toggle, shortcode, responsive, frequently asked questions
 Requires at least: 3.6
 Tested up to: 4.0
