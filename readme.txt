@@ -6,7 +6,7 @@ Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl.html
 
-The most simple and effective way to show questions and answers on your website. Create new questions, add answers, drag and drop to reorder and copy-paste the shortcode into any post/page.
+The most simple and effective way to show questions and answers on your website. Create new questions, add answers, copy-paste the shortcode.
 
 == Description ==
 [View demo & instructions](http://wpdarko.com/faq/)
